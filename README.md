@@ -57,9 +57,13 @@ Three parts to the SRGAN:
   - Create the generator
   - Create the discriminator
   - Update loss function + optimizers
-  - Train via the generator & Discriminator
+  - Train via the generator & Discriminator (150 Epochs)
+  - Plot and save the losses per epoch
+  - Show representation of SRGAN outputs compared to the low res (32x32) and the high res (128x128) versions
 - Make and save the training data for Model B from SRGAN
+  - Update all testing images via SRGAN into train_128_from_32 (in data)
 - Model B (Binary Classifier via upsized training data from SRGAN)
+  - Copy Model A except used 2 training models to make it better via freezing top layers
 
 
 ### Model A   
