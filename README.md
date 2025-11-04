@@ -38,7 +38,7 @@ Three parts to the SRGAN:
 
 
 ### The *GAN2.ipynb* file is split into 5 sections
-- Resetting up the data, libraries, directories, initialization
+- Resetting up the data, libraries, directories, initialization   
 --- check here
 - Model A (Binary Classifier)
 - SRGAN (Generator & Discriminator)
