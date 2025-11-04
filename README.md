@@ -43,6 +43,12 @@ Three parts to the SRGAN:
 - Model B (Binary Classifier via upsized training data from SRGAN)
 
 
+### Model A   
+Before the data is classified, many of the images are augmented. Here are some examples:   
+![Model A Augmentation](models/modelA/augmentation.png)
+![Model A Accuracy](models/modelA/modelA_Acc_plot.png)
+![Model A Loss](models/modelA/modelA_Loss_plot.png)
+
 
 
 ### References
