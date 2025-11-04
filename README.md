@@ -73,9 +73,9 @@ Model A Loss
 
 ### Model B   
 Model B Accuracy     
-![Model B Accuracy](models/modelB/modelB_Acc_plot.png)   
+![Model B Accuracy](models/modelB/modelB_Acc_plot2.png)   
 Model B Loss   
-![Model B Loss](models/modelB/modelB_Loss_plot.png)   
+![Model B Loss](models/modelB/modelB_Loss_plot2.png)   
 
 
 ### Model A vs B (Threshold = 0.95)
