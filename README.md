@@ -46,32 +46,32 @@ Three parts to the SRGAN:
 
 ### Model A   
 Before the data is classified, many of the images are augmented. Here are some examples:   
-![Model A Augmentation](models/modelA/augmentation.png)
+![Model A Augmentation](models/modelA/augmentation.png)   
 Model A Accuracy   
-![Model A Accuracy](models/modelA/modelA_Acc_plot.png)
-Model A Loss
-![Model A Loss](models/modelA/modelA_Loss_plot.png)
+![Model A Accuracy](models/modelA/modelA_Acc_plot.png)   
+Model A Loss   
+![Model A Loss](models/modelA/modelA_Loss_plot.png)   
 
 
 ### Model B   
-Model B Accuracy   
-![Model B Accuracy](models/modelB/modelB_Acc_plot.png)
-Model B Loss
-![Model B Loss](models/modelB/modelB_Loss_plot.png)
+Model B Accuracy     
+![Model B Accuracy](models/modelB/modelB_Acc_plot.png)   
+Model B Loss   
+![Model B Loss](models/modelB/modelB_Loss_plot.png)   
 
 
 ### Model A vs B
-| Model | Training Data | Accuracy | F1 Score | AUC |
-|:------|:---------------|:---------|:----------|:-----|
-| **Model A** | Real 128×128 images (`train_128`) | **0.8493** | **0.8471** | **0.9240** |
-| **Model B** | SRGAN-generated 128×128 images (`train_128_from_32`) | **0.8500** | **0.8450** | **0.9200** |
+| Model | Training Data | Accuracy | F1 Score | AUC |   
+|:------|:---------------|:---------|:----------|:-----|   
+| **Model A** | Real 128×128 images (`train_128`) | **0.8493** | **0.8471** | **0.9240** |   
+| **Model B** | SRGAN-generated 128×128 images (`train_128_from_32`) | **0.8500** | **0.8450** | **0.9200** |   
 
 
 ### SRGAN
 SRGAN Loss    
-![Model SRGAN Loss](models/modelSRGAN/srgan_loss_plot.png)
-SRGAN Image Creation @ 150 Epochs   
-![Model SRGAN Image Creation](models/modelSRGAN/srgan_epoch150.png)
+![Model SRGAN Loss](models/modelSRGAN/srgan_loss_plot.png)   
+SRGAN Image Creation @ 150 Epochs    
+![Model SRGAN Image Creation](models/modelSRGAN/srgan_epoch150.png)   
 
 
 ### References
