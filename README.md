@@ -37,13 +37,27 @@ Three parts to the SRGAN:
 - Then, the third is an almost exact copy of the the first model, but instead, it uses the photos created by the SRGAN to train (model B)    
 
 
-### The *GAN2.ipynb* file is split into 5 sections
+### Instructions (*GAN2.ipynb* is split into 5 sections)
 - Setting up the data, libraries, directories, initialization   
   - Colab Initialization
   - Download all libraries
   - Setup directories to match the data
 - Model A (Binary Classifier)
+  - Create DataFrame
+  - Define and apply augmentations
+  - Define the model and start training the data (had to fine tune a few times to make it better)
+    - sigmoid activation function
+    - cross entropy loss function
+    - ADAM --> learning rate = 5e-5
+    - 25 epochs
+  - Save the model, plot, and save the plots (epochs)
+  - Determine F1, AUC, and accuracy scores (Listed in later section)
 - SRGAN (Generator & Discriminator)
+  - Create image pairs to load into the generator & discriminator
+  - Create the generator
+  - Create the discriminator
+  - Update loss function + optimizers
+  - Train via the generator & Discriminator
 - Make and save the training data for Model B from SRGAN
 - Model B (Binary Classifier via upsized training data from SRGAN)
 
@@ -64,11 +78,11 @@ Model B Loss
 ![Model B Loss](models/modelB/modelB_Loss_plot.png)   
 
 
-### Model A vs B
+### Model A vs B (Threshold = 0.95)
 | Model | Training Data | Accuracy | F1 Score | AUC |   
 |:------|:---------------|:---------|:----------|:-----|   
-| **Model A** | Real 128×128 images (`train_128`) | **0.8493** | **0.8471** | **0.9240** |   
-| **Model B** | SRGAN-generated 128×128 images (`train_128_from_32`) | **0.6996** | **0.5706** | **0.9785** |   
+| **Model A** | Real 128×128 images (`train_128`) | **0.9571** | **0.9571** | **0.9922** |   
+| **Model B** | SRGAN-generated 128×128 images (`train_128_from_32`) | **0.8113** | **0.7680** | **0.9745** |   
 
 
 ### SRGAN
