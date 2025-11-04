@@ -68,7 +68,7 @@ Model B Loss
 | Model | Training Data | Accuracy | F1 Score | AUC |   
 |:------|:---------------|:---------|:----------|:-----|   
 | **Model A** | Real 128×128 images (`train_128`) | **0.8493** | **0.8471** | **0.9240** |   
-| **Model B** | SRGAN-generated 128×128 images (`train_128_from_32`) | **0.8500** | **0.8450** | **0.9200** |   
+| **Model B** | SRGAN-generated 128×128 images (`train_128_from_32`) | **0.6996** | **0.5706** | **0.9785** |   
 
 
 ### SRGAN
