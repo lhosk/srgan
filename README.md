@@ -27,6 +27,7 @@ Data Files on GitHub hold limited image files to due size restrictions.
 The number represents the resolutions (32 is 32x32 res, 128 is 128x128, and 128_from_32 is the 128x128 made from the 32x32 using the SRGAN).   
 Data splitting was done via data_preparation.py. 16800 Training & 7200 Testing --> 70/30 Split.   
 Half of training set and half of testing set are images of dogs. Other half are images of cats. (Reference 6)      
+Trained on Google Colab A100
 
 
 ### Description of the SRGAN
@@ -38,6 +39,7 @@ Three parts to the SRGAN:
 
 ### The *GAN2.ipynb* file is split into 5 sections
 - Resetting up the data, libraries, directories, initialization
+--- check here
 - Model A (Binary Classifier)
 - SRGAN (Generator & Discriminator)
 - Make and save the training data for Model B from SRGAN
