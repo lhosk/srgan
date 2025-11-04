@@ -25,6 +25,15 @@
 ##### Tiny info
 Data Files on GitHub hold limited image files to due size restrictions.   
 The number represents the resolutions (32 is 32x32 res, 128 is 128x128, and 128_from_32 is the 128x128 made from the 32x32 using the SRGAN).   
+Data splitting was done via data_preparation.py. 8400 Training & 3600 Testing --> 70/30 Split   
+
+
+### Description of the SRGAN
+There are three main parts to this SRGAN.     
+The first is the CNN (made earlier in the semester) which classifies cats and dogs (Model A)   
+The second is the SRGAN which pulls the same training images (downsized to 32x32) and recreates them as (128x128) images   
+Then, the third is an almost exact copy of the the first model, but instead, it uses the photos created by the SRGAN to train (model B)    
+The *GAN2.ipynb* file is split into 5 sections
 
 
 
