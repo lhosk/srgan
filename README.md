@@ -2,25 +2,25 @@
 
 ### Data Structures
 
-data
-├── train_32/                 
-├── train_128/                
-├── train_128_from_32/        
-├── test_32/                  
-├── test_128/                 
-└── data_preparation.py       
+**data**  
+├── **train_32/**  
+├── **train_128/**  
+├── **train_128_from_32/**  
+├── **test_32/**  
+├── **test_128/**  
+└── *data_preparation.py*  
 
-notebooks
-└── GAN2.ipynb   
+**notebooks**  
+└── *GAN2.ipynb*  
 
-models
-├── modelA.keras              
-├── modelB.keras              
-└── modelSRGAN/
-    ├── srgan_generator_epoch150.keras
-    ├── srgan_discriminator_epoch150.keras
-    ├── srgan_losses.csv
-    └── - - - -    
+**models**  
+├── *modelA.keras*  
+├── *modelB.keras*  
+└── **modelSRGAN/**  
+&emsp;├── *srgan_generator_epoch150.keras*  
+&emsp;├── *srgan_discriminator_epoch150.keras*  
+&emsp;├── *srgan_losses.csv*  
+&emsp;└── ...  
 
 ##### Tiny info
 Data Files on GitHub hold limited image files to due size restrictions
