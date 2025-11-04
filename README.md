@@ -38,8 +38,10 @@ Three parts to the SRGAN:
 
 
 ### The *GAN2.ipynb* file is split into 5 sections
-- Resetting up the data, libraries, directories, initialization   
---- check here
+- Setting up the data, libraries, directories, initialization   
+  - Colab Initialization
+  - Download all libraries
+  - Setup directories to match the data
 - Model A (Binary Classifier)
 - SRGAN (Generator & Discriminator)
 - Make and save the training data for Model B from SRGAN
