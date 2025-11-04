@@ -23,8 +23,8 @@
 &emsp;└── ...  
 
 ##### Tiny info
-Data Files on GitHub hold limited image files to due size restrictions
-The number represents the resolutions (32 is 32x32 res, 128 is 128x128, and 128_from_32 is the 128x128 made from the 32x32 using the SRGAN)
+Data Files on GitHub hold limited image files to due size restrictions.   
+The number represents the resolutions (32 is 32x32 res, 128 is 128x128, and 128_from_32 is the 128x128 made from the 32x32 using the SRGAN).   
 
 
 
