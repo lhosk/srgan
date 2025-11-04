@@ -28,6 +28,7 @@ The number represents the resolutions (32 is 32x32 res, 128 is 128x128, and 128_
 Data splitting was done via data_preparation.py. 16800 Training & 7200 Testing --> 70/30 Split.   
 Half of training set and half of testing set are images of dogs. Other half are images of cats. (Reference 6)      
 Trained on Google Colab A100
+On the final epoch, there is an unanticipated blur and curve in the top right of each photo...
 
 
 ### Description of the SRGAN
